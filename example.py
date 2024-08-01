@@ -46,4 +46,5 @@ if __name__ == "__main__":
             print(f"{i}: {trib(i)}")
             if time.time() - start_time > 1:
                 print("処理時間が1秒を超えたため、強制的に終了します")
+                trib(16);
                 break
